@@ -9,7 +9,6 @@ from environment import BombeRLeWorld, GenericWorld
 from fallbacks import pygame, tqdm, LOADED_PYGAME
 from replay import ReplayWorld
 
-
 # Function to run the game logic in a separate thread
 def game_logic(world: GenericWorld, user_inputs, args):
     last_update = time()
